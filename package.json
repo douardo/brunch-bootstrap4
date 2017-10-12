@@ -12,8 +12,14 @@
   "dependencies": {},
   "devDependencies": {
     "auto-reload-brunch": "^2",
+    "babel": "^6.23.0",
+    "bootstrap": "^4.0.0-beta",
     "brunch": "^2",
     "clean-css-brunch": "^2",
+    "jquery": "^3.2.1",
+    "pleeease": "^4.2.1",
+    "popper.js": "^1.12.5",
+    "sass-brunch": "^2.10.4",
     "uglify-js-brunch": "^2"
   }
 }
