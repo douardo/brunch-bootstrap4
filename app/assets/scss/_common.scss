@@ -2,8 +2,14 @@
 // feel free to delete and create your own further structure
 
 .brunch {
-  font-family: -apple-system, Sans-Serif;
-  text-align: center;
-  font-size: 28pt;
-  color: #3f894a;
+	font-family: -apple-system, Sans-Serif;
+	text-align: center;
+	font-size: 28pt;
+	color: #3f894a;
+	@include zoomIn(
+		$duration: 0.4s,
+		$count: 1,
+		$function: ease, 
+		$fill: both
+		);
 }

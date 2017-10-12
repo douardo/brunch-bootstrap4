@@ -11,6 +11,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "animate-scss": "^3.2.1",
     "auto-reload-brunch": "^2",
     "babel": "^6.23.0",
     "bootstrap": "^4.0.0-beta",

@@ -7,9 +7,9 @@ exports.files = {
     }
   },
   stylesheets: { joinTo: {
-      'app.css': /^app/
-    }
+    'app.css': /^app/
   }
+}
 };
 
 exports.plugins = {
@@ -18,11 +18,13 @@ exports.plugins = {
   },
   sass: {
     options: {
-      includePaths: ['./node_modules/bootstrap/scss/'],
+      includePaths: ['./node_modules/bootstrap/scss/','./node_modules/animate-scss/'],
       precision: 8
     }
-  }
+  },
 };
+
+
 
 exports.npm = {
   globals: {
