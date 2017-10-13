@@ -1,4 +1,4 @@
-// Import Bootstrap config first
+// Import Animate.css (SASS) config 
 @import './assets/scss/animate-scss/config';
 
 // Import Bootstrap config first
@@ -6,6 +6,9 @@
 
 // Import all Bootstrap_ext here
 @import './assets/scss/bootstrap_ext/button';
+
+// Import all Bootstrap Select
+@import './assets/scss/bootstrap-select/bootstrap-select.scss';
 
 // here go's the rest
 @import './assets/scss/common';
