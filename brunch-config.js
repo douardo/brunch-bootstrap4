@@ -3,7 +3,7 @@ exports.files = {
   javascripts: {
     joinTo: {
       'js/vendor.js': [/^vendor/, /^(?!app)/], // Files that are not in `app` dir.
-      'js/app.js': /^app\/js/
+      'js/app.js': /^app/
     }
   },
   stylesheets: { joinTo: {
@@ -22,6 +22,12 @@ exports.plugins = {
       precision: 8
     }
   },
+  autoReload: {
+      match: {
+        stylesheets: ['*.scss', '*.jpg', '*.png'],
+        javascripts: ['*.js']
+      }
+    }
 };
 
 
