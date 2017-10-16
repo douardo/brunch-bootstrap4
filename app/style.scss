@@ -1,29 +1,18 @@
-// Import Animate.css (SASS) config 
+// Import External Libraries
+
+// Animate.css (SASS)
 @import './assets/scss/animate-scss/config';
-
-// Import Bootstrap config first
+// Bootstrap
 @import './assets/scss/bootstrap/config';
-
-// Import all Bootstrap_ext here
+// Bootstrap Extra
 @import './assets/scss/bootstrap_ext/button';
+// Bootstrap-select
+@import './assets/scss/bootstrap-select/config';
 
-// Import all Bootstrap Select
-@import './assets/scss/bootstrap-select/bootstrap-select.scss';
 
-// here go's the rest
+
+// Import specific pages style
 @import './assets/scss/common';
 
 
-.brunch {
-	font-family: -apple-system, Sans-Serif;
-	text-align: center;
-	font-size: 28pt;
-	color: #3f894a;
-	@include zoomIn(
-		$duration: 0.4s,
-		$count: 1,
-		$function: ease, 
-		$fill: both
-		);
-}
 
