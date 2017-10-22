@@ -1,0 +1,9 @@
+.anim1 {
+@include fadeIn(
+    $duration: 1s,
+    $count: 1,
+    $delay: .2s,
+    $function: ease, 
+    $fill: both
+  );
+}
