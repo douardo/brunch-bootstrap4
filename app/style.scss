@@ -1,7 +1,7 @@
 // Import External Libraries
 
 // Bootstrap
-@import "./assets/scss/external/bootstrap/var_overrides.scss";
+@import "./scss/external/bootstrap/var_overrides.scss";
 @import "bootstrap.scss";
 // Bootstrap-select
 @import 'bootstrap-select.scss';
@@ -10,7 +10,7 @@
 
 
 // Import specific pages style
-@import './assets/scss/common';
+@import './scss/common';
 
 
 
