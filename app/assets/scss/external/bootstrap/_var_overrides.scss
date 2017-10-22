@@ -131,7 +131,7 @@
 // // Settings for the `<body>` element.
 
 // $body-bg:                   $white;
-$body-color:#dc3545;
+// $body-color:                $gray-900;
 
 // // Links
 // //
@@ -170,9 +170,12 @@ $body-color:#dc3545;
 // //
 // // Define the maximum width of `.container` for different screen sizes.
 
-$container-max-widths: (
-  xl: 1180px
-);
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1140px
+// );
 
 // @include _assert-ascending($container-max-widths, "$container-max-widths");
 
