@@ -3,8 +3,6 @@
 // Bootstrap
 @import "./scss/external/bootstrap/var_overrides.scss";
 @import "bootstrap.scss";
-// Bootstrap-select
-@import 'bootstrap-select.scss';
 // Animate.css (SASS)
 @import 'animate.scss';
 
@@ -12,6 +10,7 @@
 // Import specific pages style
 @import './scss/common';
 @import './scss/home/style';
+@import './scss/reset'
 
 
 

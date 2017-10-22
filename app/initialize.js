@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // do your setup here
+    $('select').select2({
+    	theme:'bootstrap'
+    });
   console.log('Initialized app');
 });
+

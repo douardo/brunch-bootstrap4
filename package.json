@@ -14,7 +14,7 @@
     "animate-scss": "^3.2.1",
     "auto-reload-brunch": "^2",
     "bootstrap": "^4.0.0-beta",
-    "bootstrap-select": "^1.12.4",
+    "select2": "latest",
     "babel-cli": "latest",
     "clean-css-brunch": "^2",
     "jquery": "^3.2.1",

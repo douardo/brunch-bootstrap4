@@ -18,7 +18,7 @@ exports.plugins = {
   },
   sass: {
     options: {
-      includePaths: ['./node_modules/bootstrap/scss/','./node_modules/animate-scss/','./node_modules/bootstrap-select/sass/'],
+      includePaths: ['./node_modules/bootstrap/scss/','./node_modules/animate-scss/'],
       precision: 8
     }
   },
@@ -38,6 +38,5 @@ exports.npm = {
     jQuery: 'jquery',
     Popper: 'popper.js',
     bootstrap: 'bootstrap',
-    bootstrapselect: 'bootstrap-select',
   }
 }
