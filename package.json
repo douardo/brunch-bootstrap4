@@ -13,10 +13,9 @@
   "devDependencies": {
     "animate-scss": "^3.2.1",
     "auto-reload-brunch": "^2",
-    "babel": "^6.23.0",
     "bootstrap": "^4.0.0-beta",
     "bootstrap-select": "^1.12.4",
-    "brunch": "^2",
+    "babel-cli": "latest",
     "clean-css-brunch": "^2",
     "jquery": "^3.2.1",
     "pleeease": "^4.2.1",

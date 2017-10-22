@@ -36,6 +36,8 @@ exports.npm = {
   globals: {
     $: 'jquery',
     jQuery: 'jquery',
-    Popper: 'popper.js'
+    Popper: 'popper.js',
+    bootstrap: 'bootstrap',
+    bootstrapselect: 'bootstrap-select',
   }
 }

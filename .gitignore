@@ -7,3 +7,4 @@ npm-debug.log*
 coverage
 yarn.lock
 public/
+package-lock.json

@@ -1,13 +1,16 @@
 // Import External Libraries
 
-// Animate.css (SASS)
-@import './assets/scss/external/animate-scss/config';
 // Bootstrap
-@import './assets/scss/external/bootstrap/config';
+@import "./assets/scss/external/bootstrap/var_overrides.scss";
+@import "bootstrap.scss";
+
 // Bootstrap Extra
 @import './assets/scss/external/bootstrap_ext/button';
 // Bootstrap-select
-@import './assets/scss/external/bootstrap-select/config';
+@import 'bootstrap-select.scss';
+// Animate.css (SASS)
+@import 'animate.scss';
+
 
 
 
