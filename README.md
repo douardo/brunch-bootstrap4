@@ -1,6 +1,6 @@
-# brunch-bootstrap4beta
+# brunch-bootstrap4
 
-Brunch config with Bootstrap 4 beta 3 + Sass + animate-scss
+Brunch config with Bootstrap 4 + Sass + animate-scss
 
 # Getting started
 
