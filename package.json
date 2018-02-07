@@ -20,6 +20,8 @@
     "pleeease": "^4.2.1",
     "popper.js": "^1.12.5",
     "sass-brunch": "^2.10.4",
-    "uglify-js-brunch": "^2"
+    "uglify-js-brunch": "^2",
+    "autoprefixer": "^6.3",
+    "spostcss-brunch": "^1.0.0"
   }
 }

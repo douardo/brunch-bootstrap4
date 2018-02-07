@@ -23,10 +23,15 @@ exports.plugins = {
     }
   },
   autoReload: {
-      match: {
-        stylesheets: ['*.scss'],
-        javascripts: ['*.js']
-      }
+    match: {
+      stylesheets: ['*.scss'],
+      javascripts: ['*.js']
+    }
+  },
+  postcss: {
+      processors: [
+        require('autoprefixer')()
+      ]
     }
 };
 
