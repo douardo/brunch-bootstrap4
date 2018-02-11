@@ -29,10 +29,19 @@ exports.plugins = {
     }
   },
   postcss: {
-      processors: [
-        require('autoprefixer')()
-      ]
-    }
+    processors: [
+    require('autoprefixer')()
+    ]
+  },
+  imagemin: {
+    plugins: {
+      'imagemin-gifsicle': true,
+      'imagemin-jpegtran': true,
+      'imagemin-optipng': true,
+      'imagemin-svgo': true
+    },
+    pattern: /\.(gif|jpg|jpeg|jpe|jif|jfif|jfi|png|svg|svgz)$/
+  }
 };
 
 
