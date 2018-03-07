@@ -1,6 +1,6 @@
-# brunch-bootstrap4
+# brunch-bootstrap4 for Automne
 
-Brunch config with Bootstrap 4 + Sass + animate-scss
+Brunch config with Bootstrap 4 + Sass + animate-scss. Includes fixes for Automne
 
 # Getting started
 
