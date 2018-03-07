@@ -1,16 +1,34 @@
-// Import External Libraries
+// Theme
+@import './scss/theme';
 
 // Bootstrap
 @import "./scss/external/bootstrap/var_overrides.scss";
 @import "bootstrap.scss";
-// Animate.css (SASS)
+
+// Animate.scss (SASS)
 @import 'animate.scss';
+
+// Mixins
+@import './scss/mixins/mixins';
+
+// Fonts
+@import './scss/fonts';
+
+// Common Styles
+@import './scss/common';
+
+// Reset Fixes
+@import './scss/reset';
 
 
 // Import specific pages style
-@import './scss/common';
+@import './scss/header/header';
+@import './scss/interior/interior';
+@import './scss/footer/footer';
+
+// Home
 @import './scss/home/style';
-@import './scss/reset';
+
 
 
 

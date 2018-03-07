@@ -1,0 +1,26 @@
+// FONTS //
+
+// Muli
+ @include font-face('MuliR', '/public/fonts/Muli-Regular');
+ @include font-face('MuliBK', '/public/fonts/Muli-Black');
+ @include font-face('MuliBKI', '/public/fonts/Muli-BlackItalic');
+ @include font-face('MuliB', '/public/fonts/Muli-Bold');
+ @include font-face('MuliBI', '/public/fonts/Muli-BoldItalic');
+ @include font-face('MuliEB', '/public/fonts/Muli-ExtraBold');
+ @include font-face('MuliEBI', '/public/fonts/Muli-ExtraBoldItalic');
+ @include font-face('MuliEL', '/public/fonts/Muli-ExtraLight');
+ @include font-face('MuliELI', '/public/fonts/Muli-ExtraLightItalic');
+ @include font-face('MuliI', '/public/fonts/Muli-Italic');
+ @include font-face('MuliL', '/public/fonts/Muli-Light');
+ @include font-face('MuliSB', '/public/fonts/Muli-SemiBold');
+ @include font-face('MuliSBI', '/public/fonts/Muli-SemiBoldItalic');
+
+//QuickSand
+ @include font-face('QuickB', '/public/fonts/Quicksand-Bold');
+ @include font-face('QuickL', '/public/fonts/Quicksand-Light');
+ @include font-face('QuickM', '/public/fonts/Quicksand-Medium');
+ @include font-face('QuickR', '/public/fonts/Quicksand-Regular');
+
+// Myriad
+@include font-face('MyriadR', '/public/fonts/Myriad-Pro-Regular');
+

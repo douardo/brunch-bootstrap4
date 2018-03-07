@@ -6,20 +6,17 @@
   "version": "0.0.1",
   "repository": "",
   "scripts": {
-    "start": "brunch watch --server",
+    "start": "brunch watch",
     "build": "brunch build --production"
   },
   "dependencies": {},
   "devDependencies": {
     "animate-scss": "^3.2.1",
-    "auto-reload-brunch": "^2",
-    "autoprefixer": "^6.3",
-    "babel-cli": "latest",
+    "autoprefixer": "^7.1.4",
     "bootstrap": "^4.0.0",
     "clean-css-brunch": "^2",
     "imagemin-brunch": "^1.1.0",
     "jquery": "^3.3.1",
-    "pleeease": "^4.2.1",
     "popper.js": "^1.12.5",
     "sass-brunch": "^2.10.4",
     "spostcss-brunch": "^1.0.0",

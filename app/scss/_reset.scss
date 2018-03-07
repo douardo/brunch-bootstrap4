@@ -1,0 +1,73 @@
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+/**
+ * Firefox specific rule
+ */
+@-moz-document url-prefix() {
+  body {
+    font-weight: lighter !important;
+  }
+}
+
+
+
+//automne edit fix
+.atm-edit-content {
+	textarea {
+		color: black !important;
+	}
+}
+
+/* medias */
+.pmedia-item {
+	max-width: 100%; /* prevent responsive width */
+	margin: 20px 0;
+	padding-top: 20px;
+	&.pmedia-right {
+		float: right;
+		margin-left: 20px;
+	}
+	&.pmedia-left {
+		float: left;
+		margin-right: 20px;
+	}
+	.pmedia-oembed,
+	.pmedia-oembed-legend {
+		margin: 0 auto;
+		max-width: 320px; /* a coordonner avec la largeur de la video dans la rangee */
+	}
+	.file-legend {
+		display: block;
+		margin: 0 auto;
+		max-width: 200px; /* a coordonner avec la largeur de la vignette du fichier dans la rangee */
+	}
+	.file-name {
+		display: inline-block;
+		margin-top: 3px;
+		vertical-align: middle;
+		img {
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+	object {
+		/* center oembed in his container */
+		float: none !important;
+		margin: 0 auto;
+		display: block;
+	}
+	> img {
+		/* center alone images in his container like sound thumbs */
+		display: block;
+		margin: 0 auto;
+	}
+}
+.text-media {
+	margin: 10px 0 20px;
+	padding-top: 20px;
+}
