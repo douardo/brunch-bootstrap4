@@ -1,10 +1,10 @@
 {
-  "name": "brunch-app",
-  "description": "Brunch.io application",
+  "name": "name",
+  "description": "description",
   "private": true,
-  "author": "Brunch",
+  "author": "author",
   "version": "0.0.1",
-  "repository": "",
+  "repository": "https://github.com/douardo/brunch-bootstrap4.git",
   "scripts": {
     "start": "brunch watch --server",
     "build": "brunch build --production"
@@ -15,15 +15,11 @@
     "animejs": "^2.2.0",
     "auto-reload-brunch": "^2",
     "autoprefixer": "^6.3",
-    "babel-cli": "latest",
     "bootstrap": "^4.0.0",
-    "clean-css-brunch": "^2",
     "imagemin-brunch": "^1.1.0",
     "jquery": "^3.3.1",
-    "pleeease": "^4.2.1",
     "popper.js": "^1.12.5",
     "sass-brunch": "^2.10.4",
-    "spostcss-brunch": "^1.0.0",
-    "uglify-js-brunch": "^2"
+    "spostcss-brunch": "^1.0.0"
   }
 }

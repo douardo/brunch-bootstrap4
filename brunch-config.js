@@ -13,9 +13,6 @@ exports.files = {
 };
 
 exports.plugins = {
-  babel: {
-    presets: ['latest']
-  },
   sass: {
     options: {
       includePaths: ['./node_modules/bootstrap/scss/','./node_modules/animate-scss/'],
