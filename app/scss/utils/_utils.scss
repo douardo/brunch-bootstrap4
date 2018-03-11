@@ -1,0 +1,5 @@
+/* @for $i from 1 through 10 {
+	.col-lg-4:nth-of-type(#{$i}) {
+		@include fadeIn($duration: 0.6s, $count: 1,$delay: (#{$i*0.2s}), $function: ease, $fill: both);
+	}
+} */
