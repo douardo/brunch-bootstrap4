@@ -12,6 +12,7 @@
   "dependencies": {},
   "devDependencies": {
     "animate-scss": "^3.2.1",
+    "animejs": "^2.2.0",
     "auto-reload-brunch": "^2",
     "autoprefixer": "^6.3",
     "babel-cli": "latest",

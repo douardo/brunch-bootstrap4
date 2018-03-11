@@ -52,5 +52,6 @@ exports.npm = {
     jQuery: 'jquery',
     Popper: 'popper.js',
     bootstrap: 'bootstrap',
+    animejs: 'animejs'
   }
 }
