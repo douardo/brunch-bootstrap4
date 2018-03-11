@@ -4,4 +4,3 @@ npm-debug.log*
 coverage
 public/
 package-lock.json
-app/assets/

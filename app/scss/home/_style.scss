@@ -1,15 +1,18 @@
-.brunch {
-	font-family: -apple-system, Sans-Serif;
-	text-align: center;
-	font-size: 28pt;
-	color: #40884a;
-}
-.dance {
-	@include bounceIn(
-		$duration: 1s,
-		$count: 1,
-		$delay: .5s,
-		$function: ease, 
-		$fill: both
-		);
+#main {
+	margin-top: 100px;
+	.brunch {
+		font-family: -apple-system, Sans-Serif;
+		text-align: center;
+		font-size: 28pt;
+		color: #40884a;
+	}
+	.dance {
+		@include bounceIn(
+			$duration: 1s,
+			$count: 1,
+			$delay: .5s,
+			$function: ease, 
+			$fill: both
+			);
+	}
 }

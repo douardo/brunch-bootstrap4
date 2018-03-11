@@ -1,16 +1,24 @@
-// Import External Libraries
+// Theme
+@import './scss/theme';
 
 // Bootstrap
 @import "./scss/external/bootstrap/var_overrides.scss";
 @import "bootstrap.scss";
+
 // Animate.css (SASS)
 @import 'animate.scss';
 
+// Mixins
+@import './scss/mixins/mixins';
 
-// Import specific pages style
+// Fonts
+@import './scss/fonts';
+
+// Common Styles
 @import './scss/common';
-@import './scss/home/style';
+
+// Reset Fixes
 @import './scss/reset';
 
-
-
+// Import specific pages style
+@import './scss/home/style';
